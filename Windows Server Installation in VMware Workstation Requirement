@@ -1,0 +1,157 @@
+Windows Server Installation in VMware Workstation
+Requirement
+
+VMware Workstation (Installed)
+
+Windows Server ISO file (2016 / 2019 / 2022)
+
+Minimum System:
+
+RAM: 4 GB (Recommended 8 GB)
+
+CPU: 2 Cores
+
+Disk: 60 GB
+
+Step 1: Open VMware Workstation
+
+Launch VMware Workstation
+
+Click Create a New Virtual Machine
+
+Step 2: Select Virtual Machine Configuration
+
+Choose Typical (Recommended)
+
+Click Next
+
+Step 3: Select Installation Media
+
+Select Installer disc image file (ISO)
+
+Click Browse
+
+Select Windows Server ISO file
+
+Click Next
+
+Step 4: Select Guest Operating System
+
+Guest OS: Microsoft Windows
+
+Version: Windows Server
+
+Click Next
+
+Step 5: Name Virtual Machine
+
+Enter Virtual Machine Name
+Example: Windows_Server_2022
+
+Select Location to store VM
+
+Click Next
+
+Step 6: Specify Disk Capacity
+
+Enter Disk Size: 60 GB
+
+Select Store virtual disk as a single file
+
+Click Next
+
+Step 7: Customize Hardware
+
+Click Customize Hardware
+
+Set:
+
+Memory: 4 GB or more
+
+Processors: 2
+
+Network Adapter: NAT
+
+Click Close
+
+Click Finish
+
+Step 8: Power On Virtual Machine
+
+Click Power on this virtual machine
+
+Windows Server Setup will start
+
+Step 9: Windows Server Setup
+
+Select:
+
+Language
+
+Time and Currency Format
+
+Keyboard Layout
+
+Click Next
+
+Click Install Now
+
+Step 10: Select Windows Server Edition
+
+Choose:
+
+Windows Server Standard (Desktop Experience)
+
+Click Next
+
+Step 11: Accept License Agreement
+
+Check I accept the license terms
+
+Click Next
+
+Step 12: Select Installation Type
+
+Choose Custom: Install Windows only (Advanced)
+
+Step 13: Disk Partition
+
+Select Unallocated Space
+
+Click Next
+
+Windows installation will begin
+
+Step 14: Installation Process
+
+System will copy files
+
+System will restart automatically
+
+Step 15: Administrator Password Setup
+
+Enter Administrator Password
+
+Confirm Password
+
+Click Finish
+
+Step 16: Login to Windows Server
+
+Press Ctrl + Alt + Insert
+
+Login as Administrator
+
+Enter Password
+
+Step 17: Install VMware Tools
+
+Click VM → Install VMware Tools
+
+Open This PC
+
+Run VMware Tools Setup
+
+Complete installation
+
+Restart the Server
